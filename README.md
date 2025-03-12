@@ -1,4 +1,4 @@
-# Local Fraud Detection System
+# Fraud Detection System
 
 A real-time fraud detection system that runs entirely locally on your machine. This system simulates transaction processing and uses machine learning (Weka) to detect potentially fraudulent transactions.
 
