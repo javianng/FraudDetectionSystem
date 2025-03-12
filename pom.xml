@@ -23,6 +23,23 @@
             <groupId>nz.ac.waikato.cms.weka</groupId>
             <artifactId>weka-stable</artifactId>
             <version>${weka.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.github.fommil.netlib</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.github.vbmacher</groupId>
+                    <artifactId>java-cup</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Add java-cup dependency with proper module name -->
+        <dependency>
+            <groupId>com.github.vbmacher</groupId>
+            <artifactId>java-cup-runtime</artifactId>
+            <version>11b-20160615</version>
         </dependency>
 
         <!-- H2 Database -->
