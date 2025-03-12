@@ -12,7 +12,7 @@ A real-time fraud detection system that runs entirely locally on your machine. T
 
 ## Dashboard Interface
 
-![Fraud Detection System Dashboard](dashboard.png)
+![Fraud Detection System Dashboard](./images/dashboard.png)
 
 The system features a comprehensive dashboard that includes:
 
