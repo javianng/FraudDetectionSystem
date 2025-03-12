@@ -10,6 +10,20 @@ A real-time fraud detection system that runs entirely locally on your machine. T
 - Local execution without external dependencies
 - Stylized UI with modern design
 
+## Dashboard Interface
+
+![Fraud Detection System Dashboard](dashboard.png)
+
+The system features a comprehensive dashboard that includes:
+
+- Date range selection for transaction filtering
+- Transaction type filtering
+- Adjustable fraud threshold settings
+- Real-time transaction table with detailed information
+- Interactive transaction patterns graph showing amount trends over time
+- Fraud distribution pie chart displaying legitimate vs fraudulent transaction ratios
+- Action buttons for importing data, generating transactions, and enabling simulation
+
 ## Prerequisites
 
 - Java 17 or later
@@ -28,7 +42,7 @@ mvn clean package
 After building, you can run the application using:
 
 ```bash
-mvn javafx:run
+./run.sh
 ```
 
 ## How it Works
@@ -58,10 +72,15 @@ The fraud detection model uses the following features:
 
 The model is pre-trained with some sample data for demonstration purposes. In a real application, you would want to train it with actual historical transaction data.
 
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+
+## Contact
+
+For questions, suggestions, or just to say hi:
+
+- Create an issue in this repository
+- Email: javian.ng.z.h@gmail.com
+- GitHub: @javianng
+- LinkedIn: https://www.linkedin.com/in/javianngzh/
